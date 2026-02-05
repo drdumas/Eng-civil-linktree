@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Brawler", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    padding: 10% 0 0 0 ;
+    background-image: url("../images/home-image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    backdrop-filter: blur(2px);
+}
+
+.cabeçalho{
+    padding: 5%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-fai{
+    width: 15%;
+}
+
+h1 {
+    padding: 2% 0 2% 0;
+    font-size: 24px;
+    color:#F2F2F2;
+    text-align: center;
+}
+
+h2 {
+    padding: 1%;
+    font-weight: normal;
+    font-size: 16px;
+    color:#F2F2F2;
+    text-align: center;
+}
+
+ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* -CARDS DE IMAGENS */
+
+a{
+    color: rgb(64, 105, 218);
+}
+
+.eng-civil-img {
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+    width: 20%;
+}
+
+.card-image{
+    width: 10%;
+}
+.card-image-send{
+    width: 5%;
+}
+
+.ordinary-card {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 15px;
+    background-color: #fff;
+    margin: 17px 5% 0 5%;
+    padding: 6%;
+    border-radius: 20px;
+}
+
+.div-card {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 20px;
+    background-color: #fff;
+    margin: 17px 5% 0 5%;
+
+    padding: 6%;
+    border-radius: 20px;
+
+}
+
+.card-links {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    margin-top: 15px;
+    margin: 15px 5% 0 5%;
+    text-transform: uppercase;
+
+}
+
+.card-link {
+
+    display: block;
+    text-align: center;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.card-link:hover {
+    background: #f5faff;
+    transform: scale(1.05);
+}
